@@ -1,5 +1,5 @@
 # HyKAS-Extraction
-First clone this repo and download ConceptNet from [the official website][https://github.com/commonsense/conceptnet5/wiki/Downloads] and uncompress in the current directory. 
+First clone this repo and download ConceptNet from [the official website](https://github.com/commonsense/conceptnet5/wiki/Downloads) and uncompress in the current directory. 
 Then simple run:
 ```
 python extract_english.py 
