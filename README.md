@@ -9,8 +9,8 @@ python extract4commonsenseqa.py
 To run this extraction on datasets other than CommonsenseQA, you will need to modify the data loading and formatting accordingly. 
 
 # ATOMIC Knowledge Generation 
-clone the [comet official repo](https://github.com/atcbosselut/comet-commonsense) and put files in comet-generation under scripts/interactive 
-The follow the instructions from official repo to download necessary data/models to run generation
+First clone the [comet official repo](https://github.com/atcbosselut/comet-commonsense) and put files in comet-generation under scripts/interactive 
+Then follow the instructions from official repo to download necessary data/models to run generation
 
 # HyKAS Model Training
 ```
