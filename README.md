@@ -6,7 +6,7 @@ Question Answering". See full paper [here](https://arxiv.org/abs/1910.14087)
 This code has been tested on Python 3.6.7, Pytorch 1.2 and Transformers 2.3.0 
 
 ## Dataset
-Please downdload the CommonsenseQA dataset from [the official website](https://www.tau-nlp.org/commonsenseqa)
+Please download the CommonsenseQA dataset from [the official website](https://www.tau-nlp.org/commonsenseqa)
 
 ## ConceptNet Knowledge Extraction
 Go to directory Extraction, then download ConceptNet from [the official website](https://github.com/commonsense/conceptnet5/wiki/Downloads) and uncompress in the current directory. 
@@ -19,7 +19,8 @@ This would generate the files in the data directory.
 To run extraction on datasets other than CommonsenseQA, you will need to modify the data loading and formatting accordingly. 
 
 ## ATOMIC Knowledge Generation 
-If you only need to train models on CommonsenseQA, you can skip this part. 
+Note: If you only need to train models on CommonsenseQA, you can skip this part. 
+
 First clone the [comet official repo](https://github.com/atcbosselut/comet-commonsense) and put files in comet-generation under scripts/interactive 
 Then follow the instructions from official repo to download necessary data/models to run generation
 
